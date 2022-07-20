@@ -69,3 +69,52 @@ Typeof(undefined) -> used for uninitialized variables
 Typeof(null) -> concept of the absence of value
 Typeof ({})
 ```
+
+== vs ===
+```
+== equality
+=== strict equality (check for type as well)
+
+Try null == undefined
+
+0 == ‘ ‘  -> true
+0 == ‘0’ -> true. (diff type)
+0 === ‘0’ -> false
+0 === ‘ ‘ -> false
+```
+
+```
+JS convert 0 to string ‘0’ to match with ‘0’
+
+String(0)  == ‘0’
+
+False == Boolean(‘false)
+```
+
+Does JS pass variables by reference or by value
+```
+Pass by primitive type like String, Boolean is by value (make a copy)
+Pass by non-primitive type like object are by reference (point to the same thing in memory)
+You can change the property but not change what person points to 
+
+```
+
+use strict
+```
+At the top of the file
+It’s a string
+Only new browser support it
+In browser, the global object is the window
+In node, the global object is the global
+Prevent accidental globals and prevent syntax error
+For example: use a variable before it’s been defined now cause an error.
+Without the strict mode, a = 1 -> ok
+```
+
+Reason for using strict mode
+```
+Stop you from using words that are reserved for future version of JS
+Example var let = 1 -> give error
+Does not allow you to delete a variable/function/arguments to function
+
+```
