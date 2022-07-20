@@ -25,3 +25,47 @@ Promise() – new feature
 Need polyfill – polyfill is a new code that when you import into your project give you that feature 
 Rewrite the promise and allow you to run in older browser.
 ```
+
+
+Why we need compiler and polyfill?
+```
+Both compiler and polyfill allow u to use the most modern features and yet your code can then be run on all the browsers.
+
+```
+
+Development environment
+```
+Developer console
+Right click -> Chrome -? Inspect
+Sources tab, Click on Snippets tab
+
+```
+
+Primitive types
+```
+Number
+String
+Boolean
+Null
+Undefined
+```
+
+Non-Primitive type
+```
+Object
+
+Ex: {} or new Object()
+
+```
+
+Typeof
+```
+In JS, null is a value
+
+Typeof(1) -> number
+Typeof(“a”) -> string
+Practical:
+Typeof(undefined) -> used for uninitialized variables
+Typeof(null) -> concept of the absence of value
+Typeof ({})
+```
