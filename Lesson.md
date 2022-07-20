@@ -1,7 +1,13 @@
 JS - The most dynamic language
+```
 In Java
 //String a = ‘moo’
 a = 1 // error in java
+```
+
+Reference: 
+https://stackoverflow.com/questions/32476680/what-does-it-mean-that-javascript-is-dynamic#:~:text=JavaScript%20is%20called%20a%20dynamic,variables%20is%20determined%20at%20runtime.
+
 
 
 Compilation vs polyfilling
