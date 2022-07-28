@@ -116,5 +116,14 @@ Reason for using strict mode
 Stop you from using words that are reserved for future version of JS
 Example var let = 1 -> give error
 Does not allow you to delete a variable/function/arguments to function
+```
+
+Make the eval keyword safer
+```
+What is eval for?
+It let you evaluate JS expression
+eval(“var a = 1”)
+Without strict mode, it leak out the eval expression
+Can cause security issue
 
 ```
